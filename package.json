@@ -1,0 +1,25 @@
+{
+  "name": "flex-starter",
+  "version": "1.0.0",
+  "description": "simple starter for web development with scss preprocessors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strel9/flex-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strel9/flex-starter/issues"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
