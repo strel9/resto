@@ -1,13 +1,16 @@
 //variables
-$container:1100px;
+$container:1130px;
 $gap: 15px;
 $col: 12;
 $colWidth: 100% / $col;
 
-$primaryColor: pink;
+$primaryColor: #3b3b3b;
 $secondaryColor: #4e4e4e;
 
 $btnBorderColor: $primaryColor;
+
+$red: #f34b4b;
+
 
 *{
     box-sizing: border-box;
@@ -16,8 +19,8 @@ $btnBorderColor: $primaryColor;
 .container{
     max-width: $container;
     width: 100%;
-    padding: 0 15px;
-    margin: 0 $gap;
+    padding: 0 $gap;
+    margin: 0 auto;
 
 }
 
