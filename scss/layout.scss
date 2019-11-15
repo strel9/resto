@@ -35,7 +35,8 @@ $red: #f34b4b;
     margin-top: 1rem;
 }
 [class^='ba-col-']{
-    padding: 0 15px;
+    padding: 0 $gap;
+    width: 100%;
 }
 
 

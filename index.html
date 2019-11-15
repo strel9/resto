@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+    <title>Resto</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
@@ -30,8 +30,38 @@
                         <li class="ba-menu__item">
                             <a href="#" class="ba-menu__link">Our story</a>
                         </li>
-                        <li class="ba-menu__item">
+                        <li class="ba-menu__item ba-has-submenu">
                             <a href="#" class="ba-menu__link">Menu</a>
+                            <!-- submenu -->
+                            <ul class="ba-sub-menu">
+                                <li class="ba-sub-menu__item ba-has-submenu">
+                                    <a href="" class="ba-menu__link">item 1</a>
+                                    <ul class="ba-sub-menu">
+                                        <li class="ba-sub-menu__item ba-has-submenu">
+                                            <a href="" class="ba-menu__link">item 1</a>
+                                        </li>
+                                        <li class="ba-sub-menu__item ba-has-submenu">
+                                            <a href="" class="ba-menu__link">item 2</a>
+                                        </li>
+                                        <li class="ba-sub-menu__item ba-has-submenu">
+                                            <a href="" class="ba-menu__link">item 3</a>
+                                        </li>
+                                        <li class="ba-sub-menu__item ba-has-submenu">
+                                            <a href="" class="ba-menu__link">item 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="ba-sub-menu__item ba-has-submenu">
+                                    <a href="" class="ba-menu__link">item 2</a>
+                                </li>
+                                <li class="ba-sub-menu__item ba-has-submenu">
+                                    <a href="" class="ba-menu__link">item 3</a>
+                                </li>
+                                <li class="ba-sub-menu__item ba-has-submenu">
+                                    <a href="" class="ba-menu__link">item 4</a>
+                                </li>
+                            </ul>
+                            <!-- /submenu -->
                         </li>
                         <li class="ba-menu__item">
                             <a href="#" class="ba-menu__link">Reservations</a>
@@ -173,9 +203,10 @@
                         <!-- ba-menu-item -->
                     </ul>
                 </div>
-                <button class="ba-btn"><span>load more</span>
+
+                <button class="ba-btn">load more
                     <span class="ba-btn__arrow">
-                        <svg width=11 heigth=7>
+                        <svg width=11 height=7>
                             <path fill-rule="evenodd" fill="rgb(183, 183, 183)"
                                 d="M0.656,1.706 L5.656,6.664 L10.656,1.706 L9.302,0.343 L5.656,3.957 L2.010,0.343 L0.656,1.706 Z" />
                         </svg>
@@ -184,11 +215,147 @@
             </div>
 
         </section>
+        <section class="ba-section ba-section-dishes">
+            <div class="container">
+                <div class="ba-section-header">
+                    <h2 class="ba-section__title">Featured dishes</h2>
+                    <div class="ba-slider-nav"></div>
+                </div>
+                <div class="ba-slider ba-row">
+                    <!-- START ba-dish -->
+                    <div class="ba-col-3">
+                        <div class="ba-slide ba-dish">
+                            <div class="ba-dish__thumb">
+                                <img src="./img/Layer 1.png" alt="" class="ba-dish__img">
+                            </div>
+                            <div class="ba-dish__info">
+                                <div class="ba-dish__head">
+                                    <h3 class="ba-dish__title">
+                                        <a href="#">Fugiat nulla sint</a>
+                                    </h3>
+                                    <div class="ba-dish__price">
+                                        $30
+                                    </div>
+                                </div>
+                                <div class="ba-dish__rating">
+                                    <div class="ba-dish-raiting">
+                                        <div class="ba-dish-raiting_actual" style="width:80%" aria-label="raiting 4/5"
+                                            title="4/5">
+                                            <div class="ba-dish-raiting_actual-stars">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END ba-dish -->
+                    <!-- START ba-dish -->
+                    <div class="ba-col-3">
+                        <div class="ba-slide ba-dish">
+                            <div class="ba-dish__thumb">
+                                <img src="./img/Layer 1.png" alt="" class="ba-dish__img">
+                            </div>
+                            <div class="ba-dish__info">
+                                <div class="ba-dish__head">
+                                    <h3 class="ba-dish__title">
+                                        <a href="#">Fugiat nulla sint</a>
+                                    </h3>
+                                    <div class="ba-dish__price">
+                                        $30
+                                    </div>
+                                </div>
+                                <div class="ba-dish__rating">
+                                    <div class="ba-dish-raiting">
+                                        <div class="ba-dish-raiting_actual" style="width:80%" aria-label="raiting 4/5"
+                                            title="4/5">
+                                            <div class="ba-dish-raiting_actual-stars">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END ba-dish -->
+
+                    <!-- START ba-dish -->
+                    <div class="ba-col-3">
+                        <div class="ba-slide ba-dish">
+                            <div class="ba-dish__thumb">
+                                <img src="./img/Layer 1.png" alt="" class="ba-dish__img">
+                            </div>
+                            <div class="ba-dish__info">
+                                <div class="ba-dish__head">
+                                    <h3 class="ba-dish__title">
+                                        <a href="#">Fugiat nulla sint</a>
+                                    </h3>
+                                    <div class="ba-dish__price">
+                                        $30
+                                    </div>
+                                </div>
+                                <div class="ba-dish__rating">
+                                    <div class="ba-dish-raiting">
+                                        <div class="ba-dish-raiting_actual" style="width:80%" aria-label="raiting 4/5"
+                                            title="4/5">
+                                            <div class="ba-dish-raiting_actual-stars">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END ba-dish -->
+
+                    <!-- START ba-dish -->
+                    <div class="ba-col-3">
+                        <div class="ba-slide ba-dish">
+                            <div class="ba-dish__thumb">
+                                <img src="./img/Layer 1.png" alt="" class="ba-dish__img">
+                            </div>
+                            <div class="ba-dish__info">
+                                <div class="ba-dish__head">
+                                    <h3 class="ba-dish__title">
+                                        <a href="#">Fugiat nulla sint</a>
+                                    </h3>
+                                    <div class="ba-dish__price">
+                                        $30
+                                    </div>
+                                </div>
+                                <div class="ba-dish__rating">
+                                    <div class="ba-dish-raiting">
+                                        <div class="ba-dish-raiting_actual" style="width:80%" aria-label="raiting 4/5"
+                                            title="4/5">
+                                            <div class="ba-dish-raiting_actual-stars">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END ba-dish -->
+
+                </div>
+            </div>
+            <div>
+                mb
+            </div>
+        </section>
     </main>
 
     <footer class="ba-footer">
         <div class="container">
-            
+
         </div>
     </footer>
 
