@@ -72,7 +72,7 @@ $(document).ready(function () {
     });
     // dz2
     $('#loadMore').on('click', function () {
-        $('.ba-menu-list').append('<li class="ba-menu-item"><div class="ba-menu-item__info"><h3 class="ba-menu-item__title">Voluptate cillum</h3></div></li>');
+        $('.ba-menu-list').append('<li class="ba-menu-item"><div class="ba-menu-item__info"><h3 class="ba-menu-item__title">Voluptate cillum fugiat.new</h3></div></li>');
         // $('.ba-menu-item__title').text(prompt());
     });
     // dz3
