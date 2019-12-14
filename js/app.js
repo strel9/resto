@@ -71,9 +71,15 @@ $(document).ready(function () {
         $(this).parent().siblings().find(".ba-dish__title").text($(this).attr("src"));
     });
     // dz2
-    $('#loadMore').on('click', function () {
-        $('.ba-menu-list').append('<li class="ba-menu-item"><div class="ba-menu-item__info"><h3 class="ba-menu-item__title">Voluptate cillum fugiat.new</h3></div></li>');
-        // $('.ba-menu-item__title').text(prompt());
+    $('#loadMore').on('click', function (e) {
+        $('.ba-menu-list')
+            .append('<li class="ba-menu-item"><div class="ba-menu-item__info"><h3 class="ba-menu-item__title">Voluptate cillum fugiat.new</h3></div></li>');
+        $('.ba-menu-item__title').last().text(prompt('введите новый элемент'));
+        // $('.ba-menu-list')
+        // .append('<li class="ba-menu-item"></li>')
+        // .append('<div class="ba-menu-item__info"></div>')
+        // .append('<h3 class="ba-menu-item__title"></h3>').text(x);
+        // Voluptate cillum fugiat.new
     });
     // dz3
     // console.log($('h3').next('p'));
