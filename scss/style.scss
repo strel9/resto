@@ -5,7 +5,7 @@
   src: url("../fonts/WCManoNegraBta-webfont.woff");
   font-weight: normal;
   font-display: swap;
-  /*как будет отображаться текст пока не загружег шрифт*/
+  /*как будет отображаться текст пока не загружен шрифт*/
   font-style: normal;
 }
 
@@ -19,8 +19,6 @@ body {
   height: 111px;
   display: flex;
   align-items: center;
-
-
 
   &-wrapper {
     display: flex;
@@ -173,6 +171,7 @@ a {
     text-align: left;
     margin-bottom: 4.375rem;
     margin-top: 80px;
+    text-transform: ;
   }
 
   &-item {
